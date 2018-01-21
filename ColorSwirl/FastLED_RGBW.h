@@ -1,22 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Explore
- @oddacon
- Sign out
- Unwatch 1
-  Star 0  Fork 0 oddacon/BlinkyTape-RGBW
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
-Branch: master Find file Copy pathBlinkyTape-RGBW/ColorSwirl/FastLED_RGBW.h
-1a68ac0  a minute ago
-@oddacon oddacon First Commit
-1 contributor
-RawBlameHistory     
-61 lines (52 sloc)  1 KB
-
 /* FastLED_RGBW
  * 
  * Hack to enable SK6812 RGBW strips to work with FastLED.
@@ -76,15 +57,3 @@ inline uint16_t getRGBWsize(uint16_t nleds){
 }
 
 #endif
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
-About
