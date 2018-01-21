@@ -10,7 +10,7 @@
 #define EXTRA_PIN_A    7
 #define EXTRA_PIN_B   11
 
-CRGBW leds[LED_COUNT];
+CRGBW leds[LED_COUNT];  // FastLED with RGBW
 CRGB *ledsRGB = (CRGB *) &leds[0];
 
 #define LED_OUT       13
