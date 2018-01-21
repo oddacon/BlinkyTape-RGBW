@@ -7,7 +7,7 @@
  * Modified by David Madison (http://partsnotincluded.com).
  * 
 */
- 
+
 #ifndef FastLED_RGBW_h
 #define FastLED_RGBW_h
 
