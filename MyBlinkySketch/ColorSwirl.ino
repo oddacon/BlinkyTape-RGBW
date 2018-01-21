@@ -31,7 +31,7 @@ long lastTime;
 
 float fadeIndex;
 #define FADE_STEPS 50
-
+ 
 // Button interrupt variables and Interrupt Service Routine
 uint8_t buttonState = 0;
 bool buttonDebounced;
