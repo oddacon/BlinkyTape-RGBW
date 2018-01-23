@@ -46,7 +46,7 @@ void setup()
 {  
   Serial.begin(57600);
   
-    LEDS.addLeds<WS2812B, LED_OUT, RGB>(ledsRGB, getRGBWsize(LED_COUNT));
+    LEDS.addLeds<WS2812B, LED_OUT, RGB>(ledsRGB, getRGBWsize(LED_COUNT));  //use both the CRGB pointer and the size function "getRGBWsize" in the FastLED_RGBW helper file
   
   brightness = STARTING_BRIGHTNESS;
   LEDS.setBrightness(brightnesSteps[brightness]);
